@@ -47,7 +47,7 @@ def state_to_learn():
 
 
 while len(user_guess) < 28:
-    answer_state = screen.textinput(f"{score}/50 State Correct", "What's another state's name").title()
+    answer_state = screen.textinput(f"{score}/28 State Correct", "What's another state's name").title()
     
     if answer_state == "Exit":
         state_to_learn()
