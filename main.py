@@ -59,4 +59,4 @@ while len(user_guess) < 28:
         write(answer_state)
 
 
-# turtle.mainloop()
+turtle.mainloop()
